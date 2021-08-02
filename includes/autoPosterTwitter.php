@@ -27,7 +27,7 @@ class Twitter
       $message = get_option('twitter_config')['auto_message'];
       $attachImage = get_option('twitter_config')['auto_img'];
       $post = get_post($postID);
-      $post_link = get_the_permalink(isset($postID));
+      $post_link = get_permalink($postID);
       $post_title = $post->post_title;
       $post_content = strip_tags($post->post_content);
       $post_content = str_replace('&nbsp;','',$post_content);

@@ -28,7 +28,7 @@ class facebook
       $link = get_option('facebook_config')['fc_link'];
       $attachImage = get_option('facebook_config')['auto_img_fc'];
       $post = get_post($postID);
-      $post_link = get_the_permalink(isset($id));
+      $post_link = get_permalink($postID);
       $post_title = $post->post_title;
       $post_content = strip_tags($post->post_content);
       $post_content = str_replace('&nbsp;','',$post_content);
@@ -44,7 +44,7 @@ class facebook
       if($link == false){
         $linkData = [
           'message' => $message,
-          'link' => "http://periodismo.ull.es/",
+          'link' => $post_link,
         ];
       }else{
         $linkData = [
