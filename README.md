@@ -21,3 +21,8 @@ Sus principales funcionalidades son:
   - Instagram: una de las redes sociales con más crecimiento en los últimos años, mayormente entre los jóvenes. Comprada por Facebook en 2012, formato imagen y cada vez el marketing es más importante dentro de ella debido a su crecimiento. 
 
   - Telegram: red social, y aplicación de mensajería instantánea con crecimiento estable y aumento de reputación por su gran seguridad. Además de esto permite la creación de canales de información y uso de bots muy fácilmente que ayudan a estas y más tareas.
+
+
+<a style='padding-left: 50px;' href='https://developer.twitter.com/en/apps'><img src='https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png' width='100' height='80' alt='twitter settings'/></a>
+      <a style='padding-left: 50px;' href='https://developers.facebook.com/'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png' width='80' height='80' alt='facebook settings'/></a>
+      <a style='padding-left: 50px;' href='https://core.telegram.org/bots#3-how-do-i-create-a-bot'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png' width='80' height='80' alt='telegram settings'/></a>
