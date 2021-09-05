@@ -166,7 +166,7 @@ $autoTelegram = get_option('telegram_config')['tg_auto'];
 $autoSchedule = get_option('telegram_config')['auto_schedule_tg'];
 $autoProgram = get_option('telegram_config')['auto_program_tg'];
 
-  if(($autoTwitter == 'si') && ($autoSchedule == 'no') && ($autoProgram == 'no')){
+  if(($autoTelegram == 'si') && ($autoSchedule == 'no') && ($autoProgram == 'no')){
     add_action('publish_post', 'Telegram::post');
   }
   else if(($autoTelegram == 'si') && ($autoSchedule == 'si')){
